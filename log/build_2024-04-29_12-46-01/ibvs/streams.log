@@ -1,0 +1,33 @@
+[1.388s] Invoking command in '/home/ankur/ros2_ws/src/drones_ROS2/ibvs': PYTHONPATH=/home/ankur/ros2_ws/build/ibvs/prefix_override:/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ibvs build --build-base /home/ankur/ros2_ws/build/ibvs/build install --record /home/ankur/ros2_ws/build/ibvs/install.log --single-version-externally-managed install_data
+[1.677s] running egg_info
+[1.677s] creating ../../../build/ibvs/ibvs.egg-info
+[1.677s] writing ../../../build/ibvs/ibvs.egg-info/PKG-INFO
+[1.678s] writing dependency_links to ../../../build/ibvs/ibvs.egg-info/dependency_links.txt
+[1.678s] writing entry points to ../../../build/ibvs/ibvs.egg-info/entry_points.txt
+[1.678s] writing requirements to ../../../build/ibvs/ibvs.egg-info/requires.txt
+[1.678s] writing top-level names to ../../../build/ibvs/ibvs.egg-info/top_level.txt
+[1.679s] writing manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[1.681s] reading manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[1.681s] writing manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[1.682s] running build
+[1.682s] running build_py
+[1.682s] creating /home/ankur/ros2_ws/build/ibvs/build
+[1.682s] creating /home/ankur/ros2_ws/build/ibvs/build/lib
+[1.682s] creating /home/ankur/ros2_ws/build/ibvs/build/lib/ibvs
+[1.682s] copying ibvs/__init__.py -> /home/ankur/ros2_ws/build/ibvs/build/lib/ibvs
+[1.683s] running install
+[1.683s] running install_lib
+[1.684s] creating /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs
+[1.684s] copying /home/ankur/ros2_ws/build/ibvs/build/lib/ibvs/__init__.py -> /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs
+[1.684s] byte-compiling /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs/__init__.py to __init__.cpython-310.pyc
+[1.685s] running install_data
+[1.685s] creating /home/ankur/ros2_ws/install/ibvs/share/ament_index
+[1.685s] creating /home/ankur/ros2_ws/install/ibvs/share/ament_index/resource_index
+[1.685s] creating /home/ankur/ros2_ws/install/ibvs/share/ament_index/resource_index/packages
+[1.685s] copying resource/ibvs -> /home/ankur/ros2_ws/install/ibvs/share/ament_index/resource_index/packages
+[1.685s] copying package.xml -> /home/ankur/ros2_ws/install/ibvs/share/ibvs
+[1.685s] running install_egg_info
+[1.687s] Copying ../../../build/ibvs/ibvs.egg-info to /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs-0.0.0-py3.10.egg-info
+[1.688s] running install_scripts
+[1.722s] writing list of installed files to '/home/ankur/ros2_ws/build/ibvs/install.log'
+[1.758s] Invoked command in '/home/ankur/ros2_ws/src/drones_ROS2/ibvs' returned '0': PYTHONPATH=/home/ankur/ros2_ws/build/ibvs/prefix_override:/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ibvs build --build-base /home/ankur/ros2_ws/build/ibvs/build install --record /home/ankur/ros2_ws/build/ibvs/install.log --single-version-externally-managed install_data

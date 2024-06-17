@@ -1,0 +1,23 @@
+[ 75%] Built target p1_a_drive_node
+[100%] Built target p1_b_tb3_follower
+-- Install configuration: ""
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/lib/drive_drone/p1_a_drive_node
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/lib/drive_drone/p1_b_tb3_follower
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone//launch
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone//launch/p1_b_tb3_drone_gazebo.launch.py
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone//launch/p1_a_drone_fly_gazebo_rviz.launch.py
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/ament_index/resource_index/package_run_dependencies/drive_drone
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/ament_index/resource_index/parent_prefix_path/drive_drone
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/environment/path.sh
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/environment/path.dsv
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/local_setup.bash
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/local_setup.sh
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/local_setup.zsh
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/local_setup.dsv
+-- Installing: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/package.dsv
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/ament_index/resource_index/packages/drive_drone
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/cmake/drive_droneConfig.cmake
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/cmake/drive_droneConfig-version.cmake
+-- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/package.xml

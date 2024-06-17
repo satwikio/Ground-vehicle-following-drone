@@ -1,0 +1,21 @@
+[2.430s] Invoking command in '/home/ankur/ros2_ws/src/drones_ROS2/ibvs': PYTHONPATH=/home/ankur/ros2_ws/build/ibvs/prefix_override:/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ibvs build --build-base /home/ankur/ros2_ws/build/ibvs/build install --record /home/ankur/ros2_ws/build/ibvs/install.log --single-version-externally-managed install_data
+[2.913s] running egg_info
+[2.915s] writing ../../../build/ibvs/ibvs.egg-info/PKG-INFO
+[2.917s] writing dependency_links to ../../../build/ibvs/ibvs.egg-info/dependency_links.txt
+[2.920s] writing entry points to ../../../build/ibvs/ibvs.egg-info/entry_points.txt
+[2.921s] writing requirements to ../../../build/ibvs/ibvs.egg-info/requires.txt
+[2.922s] writing top-level names to ../../../build/ibvs/ibvs.egg-info/top_level.txt
+[2.928s] reading manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[2.931s] writing manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[2.933s] running build
+[2.933s] running build_py
+[2.939s] running install
+[2.940s] running install_lib
+[2.942s] running install_data
+[2.943s] running install_egg_info
+[2.969s] removing '/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs-0.0.0-py3.10.egg-info' (and everything under it)
+[2.970s] Copying ../../../build/ibvs/ibvs.egg-info to /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs-0.0.0-py3.10.egg-info
+[2.971s] running install_scripts
+[3.019s] Installing spawnGV script to /home/ankur/ros2_ws/install/ibvs/lib/ibvs
+[3.025s] writing list of installed files to '/home/ankur/ros2_ws/build/ibvs/install.log'
+[3.093s] Invoked command in '/home/ankur/ros2_ws/src/drones_ROS2/ibvs' returned '0': PYTHONPATH=/home/ankur/ros2_ws/build/ibvs/prefix_override:/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ibvs build --build-base /home/ankur/ros2_ws/build/ibvs/build install --record /home/ankur/ros2_ws/build/ibvs/install.log --single-version-externally-managed install_data

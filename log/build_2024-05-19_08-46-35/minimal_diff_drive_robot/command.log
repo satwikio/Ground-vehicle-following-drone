@@ -1,0 +1,4 @@
+Invoking command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot -- -j20 -l20
+Invoked command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot -- -j20 -l20
+Invoking command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot
+Invoked command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot

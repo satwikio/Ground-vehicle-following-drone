@@ -1,0 +1,27 @@
+[0.112s] Invoking command in '/home/ankur/ros2_ws/build/minimal_diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/src/drones_ROS2/install/sjtu_drone_bringup:/home/ankur/ros2_ws/src/drones_ROS2/install/ibvs:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --build /home/ankur/ros2_ws/build/minimal_diff_drive_robot -- -j4 -l4
+[0.515s] Invoked command in '/home/ankur/ros2_ws/build/minimal_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/src/drones_ROS2/install/sjtu_drone_bringup:/home/ankur/ros2_ws/src/drones_ROS2/install/ibvs:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --build /home/ankur/ros2_ws/build/minimal_diff_drive_robot -- -j4 -l4
+[0.589s] Invoking command in '/home/ankur/ros2_ws/build/minimal_diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/src/drones_ROS2/install/sjtu_drone_bringup:/home/ankur/ros2_ws/src/drones_ROS2/install/ibvs:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --install /home/ankur/ros2_ws/build/minimal_diff_drive_robot
+[0.603s] -- Install configuration: ""
+[0.604s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/launch
+[0.604s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/launch/gazebo_and_rviz.launch.xml
+[0.604s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/launch/gazebo_and_rviz.launch.py
+[0.604s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/urdf
+[0.605s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/urdf/minimal_diff_drive_robot.urdf
+[0.605s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/config
+[0.605s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/config/robot.rviz
+[0.606s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/ament_index/resource_index/package_run_dependencies/minimal_diff_drive_robot
+[0.606s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/ament_index/resource_index/parent_prefix_path/minimal_diff_drive_robot
+[0.606s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/environment/ament_prefix_path.sh
+[0.606s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/environment/ament_prefix_path.dsv
+[0.607s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/environment/path.sh
+[0.607s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/environment/path.dsv
+[0.607s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/local_setup.bash
+[0.607s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/local_setup.sh
+[0.607s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/local_setup.zsh
+[0.607s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/local_setup.dsv
+[0.607s] -- Installing: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.dsv
+[0.608s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/ament_index/resource_index/packages/minimal_diff_drive_robot
+[0.608s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/cmake/minimal_diff_drive_robotConfig.cmake
+[0.609s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/cmake/minimal_diff_drive_robotConfig-version.cmake
+[0.609s] -- Up-to-date: /home/ankur/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.xml
+[0.614s] Invoked command in '/home/ankur/ros2_ws/build/minimal_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/src/drones_ROS2/install/sjtu_drone_bringup:/home/ankur/ros2_ws/src/drones_ROS2/install/ibvs:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --install /home/ankur/ros2_ws/build/minimal_diff_drive_robot

@@ -1,0 +1,27 @@
+[0.151s] Invoking command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup:/home/jagadeesh/ros2_ws/install/ibvs:/home/jagadeesh/ros2_ws/install/drone_controller:/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot -- -j20 -l20
+[0.286s] Invoked command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup:/home/jagadeesh/ros2_ws/install/ibvs:/home/jagadeesh/ros2_ws/install/drone_controller:/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot -- -j20 -l20
+[0.306s] Invoking command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup:/home/jagadeesh/ros2_ws/install/ibvs:/home/jagadeesh/ros2_ws/install/drone_controller:/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot
+[0.311s] -- Install configuration: ""
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/launch
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/launch/gazebo_and_rviz.launch.xml
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/launch/gazebo_and_rviz.launch.py
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/urdf
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/urdf/minimal_diff_drive_robot.urdf
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/config
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/config/robot.rviz
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/ament_index/resource_index/package_run_dependencies/minimal_diff_drive_robot
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/ament_index/resource_index/parent_prefix_path/minimal_diff_drive_robot
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/environment/ament_prefix_path.sh
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/environment/ament_prefix_path.dsv
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/environment/path.sh
+[0.311s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/environment/path.dsv
+[0.312s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/local_setup.bash
+[0.312s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/local_setup.sh
+[0.312s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/local_setup.zsh
+[0.312s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/local_setup.dsv
+[0.312s] -- Installing: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.dsv
+[0.312s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/ament_index/resource_index/packages/minimal_diff_drive_robot
+[0.312s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/cmake/minimal_diff_drive_robotConfig.cmake
+[0.312s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/cmake/minimal_diff_drive_robotConfig-version.cmake
+[0.312s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.xml
+[0.313s] Invoked command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup:/home/jagadeesh/ros2_ws/install/ibvs:/home/jagadeesh/ros2_ws/install/drone_controller:/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot

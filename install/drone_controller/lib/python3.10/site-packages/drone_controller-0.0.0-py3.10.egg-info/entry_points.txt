@@ -1,0 +1,8 @@
+[console_scripts]
+image_pub = drone_controller.image_pub:main
+image_sub = drone_controller.image_sub:main
+img_sub = drone_controller.img_sub:main
+img_sub2 = drone_controller.img_sub2:main
+img_sub3 = drone_controller.img_sub3:main
+pose_sub = drone_controller.pose_sub:main
+

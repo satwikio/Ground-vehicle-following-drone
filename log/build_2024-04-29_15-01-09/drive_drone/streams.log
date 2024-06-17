@@ -1,0 +1,3 @@
+[0.100s] Invoking command in '/home/ankur/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --build /home/ankur/ros2_ws/build/drive_drone -- -j4 -l4
+[0.971s] [ 50%] Built target p1_b_tb3_follower
+[0.971s] [100%] Built target p1_a_drive_node

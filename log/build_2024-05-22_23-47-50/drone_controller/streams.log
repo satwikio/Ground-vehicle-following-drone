@@ -1,0 +1,29 @@
+[0.559s] Invoking command in '/home/jagadeesh/ros2_ws/src/drones_ROS2/drone_controller': PYTHONPATH=/home/jagadeesh/ros2_ws/build/drone_controller/prefix_override:/home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/drone_controller build --build-base /home/jagadeesh/ros2_ws/build/drone_controller/build install --record /home/jagadeesh/ros2_ws/build/drone_controller/install.log --single-version-externally-managed install_data
+[0.671s] running egg_info
+[0.671s] writing ../../../build/drone_controller/drone_controller.egg-info/PKG-INFO
+[0.671s] writing dependency_links to ../../../build/drone_controller/drone_controller.egg-info/dependency_links.txt
+[0.671s] writing entry points to ../../../build/drone_controller/drone_controller.egg-info/entry_points.txt
+[0.671s] writing requirements to ../../../build/drone_controller/drone_controller.egg-info/requires.txt
+[0.671s] writing top-level names to ../../../build/drone_controller/drone_controller.egg-info/top_level.txt
+[0.673s] reading manifest file '../../../build/drone_controller/drone_controller.egg-info/SOURCES.txt'
+[0.673s] writing manifest file '../../../build/drone_controller/drone_controller.egg-info/SOURCES.txt'
+[0.673s] running build
+[0.673s] running build_py
+[0.673s] copying drone_controller/pose_sub.py -> /home/jagadeesh/ros2_ws/build/drone_controller/build/lib/drone_controller
+[0.673s] running install
+[0.673s] running install_lib
+[0.673s] copying /home/jagadeesh/ros2_ws/build/drone_controller/build/lib/drone_controller/pose_sub.py -> /home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages/drone_controller
+[0.674s] byte-compiling /home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages/drone_controller/pose_sub.py to pose_sub.cpython-310.pyc
+[0.674s] running install_data
+[0.674s] running install_egg_info
+[0.675s] removing '/home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages/drone_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.675s] Copying ../../../build/drone_controller/drone_controller.egg-info to /home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages/drone_controller-0.0.0-py3.10.egg-info
+[0.676s] running install_scripts
+[0.687s] Installing image_pub script to /home/jagadeesh/ros2_ws/install/drone_controller/lib/drone_controller
+[0.687s] Installing image_sub script to /home/jagadeesh/ros2_ws/install/drone_controller/lib/drone_controller
+[0.687s] Installing img_sub script to /home/jagadeesh/ros2_ws/install/drone_controller/lib/drone_controller
+[0.687s] Installing img_sub2 script to /home/jagadeesh/ros2_ws/install/drone_controller/lib/drone_controller
+[0.687s] Installing img_sub3 script to /home/jagadeesh/ros2_ws/install/drone_controller/lib/drone_controller
+[0.687s] Installing pose_sub script to /home/jagadeesh/ros2_ws/install/drone_controller/lib/drone_controller
+[0.687s] writing list of installed files to '/home/jagadeesh/ros2_ws/build/drone_controller/install.log'
+[0.707s] Invoked command in '/home/jagadeesh/ros2_ws/src/drones_ROS2/drone_controller' returned '0': PYTHONPATH=/home/jagadeesh/ros2_ws/build/drone_controller/prefix_override:/home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/drone_controller build --build-base /home/jagadeesh/ros2_ws/build/drone_controller/build install --record /home/jagadeesh/ros2_ws/build/drone_controller/install.log --single-version-externally-managed install_data

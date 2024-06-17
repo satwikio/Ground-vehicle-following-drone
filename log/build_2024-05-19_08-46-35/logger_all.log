@@ -1,0 +1,439 @@
+[2.404s] DEBUG:colcon:Command line arguments: ['/home/jagadeesh/.local/bin/colcon', 'build']
+[2.404s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x792dbfaf9270>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x792dbfaf8d00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x792dbfaf8d00>>)
+[5.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.877s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jagadeesh/ros2_ws'
+[5.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extensions ['ignore', 'ignore_ament_install']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extension 'ignore'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extension 'ignore_ament_install'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extensions ['colcon_pkg']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extension 'colcon_pkg'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extensions ['colcon_meta']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extension 'colcon_meta'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extensions ['ros']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extension 'ros'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extensions ['cmake', 'python']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extension 'cmake'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extension 'python'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extensions ['python_setup_py']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(Video) by extension 'python_setup_py'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extension 'ignore'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extension 'ignore_ament_install'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extensions ['colcon_pkg']
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extension 'colcon_pkg'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extensions ['colcon_meta']
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extension 'colcon_meta'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extensions ['ros']
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extension 'ros'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extensions ['cmake', 'python']
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extension 'cmake'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extension 'python'
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extensions ['python_setup_py']
+[5.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2) by extension 'python_setup_py'
+[5.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/build) by extensions ['ignore', 'ignore_ament_install']
+[5.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/build) by extension 'ignore'
+[5.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/build) ignored
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extensions ['ignore', 'ignore_ament_install']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extension 'ignore'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extension 'ignore_ament_install'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extensions ['colcon_pkg']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extension 'colcon_pkg'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extensions ['colcon_meta']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extension 'colcon_meta'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extensions ['ros']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drive_drone) by extension 'ros'
+[5.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drones_ROS2/drive_drone' with type 'ros.ament_cmake' and name 'drive_drone'
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extensions ['ignore', 'ignore_ament_install']
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extension 'ignore'
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extension 'ignore_ament_install'
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extensions ['colcon_pkg']
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extension 'colcon_pkg'
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extensions ['colcon_meta']
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extension 'colcon_meta'
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extensions ['ros']
+[5.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/drone_controller) by extension 'ros'
+[5.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drones_ROS2/drone_controller' with type 'ros.ament_python' and name 'drone_controller'
+[5.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/install) by extensions ['ignore', 'ignore_ament_install']
+[5.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/install) by extension 'ignore'
+[5.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/install) ignored
+[5.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/log) by extensions ['ignore', 'ignore_ament_install']
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/log) by extension 'ignore'
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/log) ignored
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extensions ['ignore', 'ignore_ament_install']
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extension 'ignore'
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extension 'ignore_ament_install'
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extensions ['colcon_pkg']
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extension 'colcon_pkg'
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extensions ['colcon_meta']
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extension 'colcon_meta'
+[5.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extensions ['ros']
+[5.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/minimal_diff_drive_robot) by extension 'ros'
+[5.998s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drones_ROS2/minimal_diff_drive_robot' with type 'ros.ament_cmake' and name 'minimal_diff_drive_robot'
+[5.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extensions ['ignore', 'ignore_ament_install']
+[5.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extension 'ignore'
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extension 'ignore_ament_install'
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extensions ['colcon_pkg']
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extension 'colcon_pkg'
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extensions ['colcon_meta']
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extension 'colcon_meta'
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extensions ['ros']
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extension 'ros'
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extensions ['cmake', 'python']
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extension 'cmake'
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extension 'python'
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extensions ['python_setup_py']
+[5.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone) by extension 'python_setup_py'
+[6.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extensions ['ignore', 'ignore_ament_install']
+[6.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extension 'ignore'
+[6.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extension 'ignore_ament_install'
+[6.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extensions ['colcon_pkg']
+[6.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extension 'colcon_pkg'
+[6.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extensions ['colcon_meta']
+[6.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extension 'colcon_meta'
+[6.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extensions ['ros']
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extension 'ros'
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extensions ['cmake', 'python']
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extension 'cmake'
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extension 'python'
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extensions ['python_setup_py']
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/imgs) by extension 'python_setup_py'
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extension 'ignore'
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extension 'ignore_ament_install'
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extensions ['colcon_pkg']
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extension 'colcon_pkg'
+[6.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extensions ['colcon_meta']
+[6.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extension 'colcon_meta'
+[6.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extensions ['ros']
+[6.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_bringup) by extension 'ros'
+[6.012s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drones_ROS2/sjtu_drone/sjtu_drone_bringup' with type 'ros.ament_python' and name 'sjtu_drone_bringup'
+[6.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extensions ['ignore', 'ignore_ament_install']
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extension 'ignore'
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extension 'ignore_ament_install'
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extensions ['colcon_pkg']
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extension 'colcon_pkg'
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extensions ['colcon_meta']
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extension 'colcon_meta'
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extensions ['ros']
+[6.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/drones_ROS2/sjtu_drone/sjtu_drone_description) by extension 'ros'
+[6.015s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drones_ROS2/sjtu_drone/sjtu_drone_description' with type 'ros.ament_cmake' and name 'sjtu_drone_description'
+[6.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.314s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[6.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_args' from command line to 'None'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_target' from command line to 'None'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_clean_cache' from command line to 'False'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_clean_first' from command line to 'False'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'cmake_force_configure' from command line to 'False'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'ament_cmake_args' from command line to 'None'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'catkin_cmake_args' from command line to 'None'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drive_drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.345s] DEBUG:colcon.colcon_core.verb:Building package 'drive_drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagadeesh/ros2_ws/build/drive_drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagadeesh/ros2_ws/install/drive_drone', 'merge_install': False, 'path': '/home/jagadeesh/ros2_ws/src/drones_ROS2/drive_drone', 'symlink_install': False, 'test_result_base': None}
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'cmake_args' from command line to 'None'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'cmake_target' from command line to 'None'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'cmake_clean_first' from command line to 'False'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'cmake_force_configure' from command line to 'False'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'ament_cmake_args' from command line to 'None'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[6.345s] Level 5:colcon.colcon_core.verb:set package 'drone_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.345s] DEBUG:colcon.colcon_core.verb:Building package 'drone_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagadeesh/ros2_ws/build/drone_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagadeesh/ros2_ws/install/drone_controller', 'merge_install': False, 'path': '/home/jagadeesh/ros2_ws/src/drones_ROS2/drone_controller', 'symlink_install': False, 'test_result_base': None}
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'cmake_target' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'cmake_clean_first' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'cmake_force_configure' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'ament_cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'minimal_diff_drive_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.346s] DEBUG:colcon.colcon_core.verb:Building package 'minimal_diff_drive_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot', 'merge_install': False, 'path': '/home/jagadeesh/ros2_ws/src/drones_ROS2/minimal_diff_drive_robot', 'symlink_install': False, 'test_result_base': None}
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.346s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagadeesh/ros2_ws/build/sjtu_drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup', 'merge_install': False, 'path': '/home/jagadeesh/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup', 'symlink_install': False, 'test_result_base': None}
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[6.346s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.346s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jagadeesh/ros2_ws/build/sjtu_drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jagadeesh/ros2_ws/install/sjtu_drone_description', 'merge_install': False, 'path': '/home/jagadeesh/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_description', 'symlink_install': False, 'test_result_base': None}
+[6.346s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.347s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/drive_drone' with build type 'ament_cmake'
+[6.347s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/drive_drone'
+[6.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.399s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/drone_controller' with build type 'ament_python'
+[6.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_controller', 'ament_prefix_path')
+[6.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/hook/ament_prefix_path.ps1'
+[6.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/hook/ament_prefix_path.dsv'
+[6.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/hook/ament_prefix_path.sh'
+[6.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/minimal_diff_drive_robot' with build type 'ament_cmake'
+[6.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/minimal_diff_drive_robot'
+[6.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.422s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup' with build type 'ament_python'
+[6.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'ament_prefix_path')
+[6.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.ps1'
+[6.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.dsv'
+[6.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.sh'
+[6.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_description' with build type 'ament_cmake'
+[6.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_description'
+[6.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagadeesh/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/drive_drone -- -j20 -l20
+[6.974s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/drone_controller'
+[6.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot -- -j20 -l20
+[7.148s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jagadeesh/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup'
+[7.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagadeesh/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/sjtu_drone_description -- -j20 -l20
+[7.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot -- -j20 -l20
+[7.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot
+[7.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minimal_diff_drive_robot)
+[7.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/minimal_diff_drive_robot
+[8.101s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot' for CMake module files
+[8.102s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot' for CMake config files
+[8.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('minimal_diff_drive_robot', 'cmake_prefix_path')
+[8.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/hook/cmake_prefix_path.ps1'
+[8.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/hook/cmake_prefix_path.dsv'
+[8.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/hook/cmake_prefix_path.sh'
+[8.121s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/bin'
+[8.121s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/lib/pkgconfig/minimal_diff_drive_robot.pc'
+[8.122s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/lib/python3.10/site-packages'
+[8.122s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/bin'
+[8.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.ps1'
+[8.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.dsv'
+[8.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.sh'
+[8.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.bash'
+[8.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.zsh'
+[8.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/colcon-core/packages/minimal_diff_drive_robot)
+[8.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minimal_diff_drive_robot)
+[8.261s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot' for CMake module files
+[8.262s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot' for CMake config files
+[8.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('minimal_diff_drive_robot', 'cmake_prefix_path')
+[8.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/hook/cmake_prefix_path.ps1'
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/hook/cmake_prefix_path.dsv'
+[8.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/hook/cmake_prefix_path.sh'
+[8.265s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/bin'
+[8.265s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/lib/pkgconfig/minimal_diff_drive_robot.pc'
+[8.266s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/lib/python3.10/site-packages'
+[8.266s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/bin'
+[8.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.ps1'
+[8.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.dsv'
+[8.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.sh'
+[8.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.bash'
+[8.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/minimal_diff_drive_robot/package.zsh'
+[8.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagadeesh/ros2_ws/install/minimal_diff_drive_robot/share/colcon-core/packages/minimal_diff_drive_robot)
+[8.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagadeesh/ros2_ws/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/drive_drone -- -j20 -l20
+[8.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagadeesh/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/drive_drone
+[8.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_drone)
+[8.618s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone' for CMake module files
+[8.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagadeesh/ros2_ws/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/drive_drone
+[8.620s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone' for CMake config files
+[8.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_drone', 'cmake_prefix_path')
+[8.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.ps1'
+[8.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.dsv'
+[8.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.sh'
+[8.626s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/lib'
+[8.626s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/bin'
+[8.627s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/lib/pkgconfig/drive_drone.pc'
+[8.627s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/lib/python3.10/site-packages'
+[8.627s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/bin'
+[8.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.ps1'
+[8.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.dsv'
+[8.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.sh'
+[8.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.bash'
+[8.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.zsh'
+[8.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagadeesh/ros2_ws/install/drive_drone/share/colcon-core/packages/drive_drone)
+[8.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_drone)
+[8.674s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone' for CMake module files
+[8.675s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone' for CMake config files
+[8.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_drone', 'cmake_prefix_path')
+[8.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.ps1'
+[8.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.dsv'
+[8.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/hook/cmake_prefix_path.sh'
+[8.677s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/lib'
+[8.678s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/bin'
+[8.678s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/lib/pkgconfig/drive_drone.pc'
+[8.678s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/lib/python3.10/site-packages'
+[8.679s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drive_drone/bin'
+[8.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.ps1'
+[8.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.dsv'
+[8.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.sh'
+[8.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.bash'
+[8.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.zsh'
+[8.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagadeesh/ros2_ws/install/drive_drone/share/colcon-core/packages/drive_drone)
+[8.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagadeesh/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup': PYTHONPATH=/home/jagadeesh/ros2_ws/build/sjtu_drone_bringup/prefix_override:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/sjtu_drone_bringup build --build-base /home/jagadeesh/ros2_ws/build/sjtu_drone_bringup/build install --record /home/jagadeesh/ros2_ws/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[8.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagadeesh/ros2_ws/src/drones_ROS2/drone_controller': PYTHONPATH=/home/jagadeesh/ros2_ws/build/drone_controller/prefix_override:/home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/drone_controller build --build-base /home/jagadeesh/ros2_ws/build/drone_controller/build install --record /home/jagadeesh/ros2_ws/build/drone_controller/install.log --single-version-externally-managed install_data
+[9.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagadeesh/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/sjtu_drone_description -- -j20 -l20
+[9.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jagadeesh/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/sjtu_drone_description
+[9.195s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup' for CMake module files
+[9.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagadeesh/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/jagadeesh/ros2_ws/build/sjtu_drone_bringup/prefix_override:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/sjtu_drone_bringup build --build-base /home/jagadeesh/ros2_ws/build/sjtu_drone_bringup/build install --record /home/jagadeesh/ros2_ws/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[9.196s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup' for CMake config files
+[9.205s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/lib'
+[9.205s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/bin'
+[9.205s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/lib/pkgconfig/sjtu_drone_bringup.pc'
+[9.205s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages'
+[9.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'pythonpath')
+[9.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.ps1'
+[9.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.dsv'
+[9.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.sh'
+[9.206s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/bin'
+[9.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_bringup)
+[9.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.ps1'
+[9.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.dsv'
+[9.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.sh'
+[9.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.bash'
+[9.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.zsh'
+[9.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup/share/colcon-core/packages/sjtu_drone_bringup)
+[9.214s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drone_controller' for CMake module files
+[9.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagadeesh/ros2_ws/src/drones_ROS2/drone_controller' returned '0': PYTHONPATH=/home/jagadeesh/ros2_ws/build/drone_controller/prefix_override:/home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/drone_controller build --build-base /home/jagadeesh/ros2_ws/build/drone_controller/build install --record /home/jagadeesh/ros2_ws/build/drone_controller/install.log --single-version-externally-managed install_data
+[9.215s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drone_controller' for CMake config files
+[9.215s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drone_controller/lib'
+[9.216s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drone_controller/bin'
+[9.216s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drone_controller/lib/pkgconfig/drone_controller.pc'
+[9.216s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drone_controller/lib/python3.10/site-packages'
+[9.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_controller', 'pythonpath')
+[9.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/hook/pythonpath.ps1'
+[9.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/hook/pythonpath.dsv'
+[9.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/hook/pythonpath.sh'
+[9.217s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/drone_controller/bin'
+[9.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_controller)
+[9.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/package.ps1'
+[9.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/package.dsv'
+[9.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/package.sh'
+[9.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/package.bash'
+[9.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/drone_controller/share/drone_controller/package.zsh'
+[9.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagadeesh/ros2_ws/install/drone_controller/share/colcon-core/packages/drone_controller)
+[9.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description' for CMake module files
+[9.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jagadeesh/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/sjtu_drone_description
+[9.278s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description' for CMake config files
+[9.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[9.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[9.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[9.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[9.281s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/lib'
+[9.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[9.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[9.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[9.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[9.284s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/bin'
+[9.284s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[9.284s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/lib/python3.10/site-packages'
+[9.285s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/bin'
+[9.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[9.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[9.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[9.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[9.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[9.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[9.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[9.331s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description' for CMake module files
+[9.331s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description' for CMake config files
+[9.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[9.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[9.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[9.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[9.334s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/lib'
+[9.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[9.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[9.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[9.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/bin'
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/lib/python3.10/site-packages'
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/bin'
+[9.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[9.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[9.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[9.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[9.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[9.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[9.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.343s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.343s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.343s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.384s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.385s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.385s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.406s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jagadeesh/ros2_ws/install/local_setup.ps1'
+[9.430s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jagadeesh/ros2_ws/install/_local_setup_util_ps1.py'
+[9.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jagadeesh/ros2_ws/install/setup.ps1'
+[9.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jagadeesh/ros2_ws/install/local_setup.sh'
+[9.455s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jagadeesh/ros2_ws/install/_local_setup_util_sh.py'
+[9.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jagadeesh/ros2_ws/install/setup.sh'
+[9.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jagadeesh/ros2_ws/install/local_setup.bash'
+[9.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jagadeesh/ros2_ws/install/setup.bash'
+[9.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jagadeesh/ros2_ws/install/local_setup.zsh'
+[9.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jagadeesh/ros2_ws/install/setup.zsh'

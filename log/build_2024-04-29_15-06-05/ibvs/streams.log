@@ -1,0 +1,26 @@
+[1.396s] Invoking command in '/home/ankur/ros2_ws/src/drones_ROS2/ibvs': PYTHONPATH=/home/ankur/ros2_ws/build/ibvs/prefix_override:/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ibvs build --build-base /home/ankur/ros2_ws/build/ibvs/build install --record /home/ankur/ros2_ws/build/ibvs/install.log --single-version-externally-managed install_data
+[1.687s] running egg_info
+[1.691s] writing ../../../build/ibvs/ibvs.egg-info/PKG-INFO
+[1.691s] writing dependency_links to ../../../build/ibvs/ibvs.egg-info/dependency_links.txt
+[1.692s] writing entry points to ../../../build/ibvs/ibvs.egg-info/entry_points.txt
+[1.692s] writing requirements to ../../../build/ibvs/ibvs.egg-info/requires.txt
+[1.693s] writing top-level names to ../../../build/ibvs/ibvs.egg-info/top_level.txt
+[1.698s] reading manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[1.698s] writing manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[1.699s] running build
+[1.699s] running build_py
+[1.699s] copying ibvs/spawnGV.py -> /home/ankur/ros2_ws/build/ibvs/build/lib/ibvs
+[1.700s] running install
+[1.700s] running install_lib
+[1.701s] copying /home/ankur/ros2_ws/build/ibvs/build/lib/ibvs/spawnGV.py -> /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs
+[1.702s] byte-compiling /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs/spawnGV.py to spawnGV.cpython-310.pyc
+[1.712s] running install_data
+[1.712s] copying package.xml -> /home/ankur/ros2_ws/install/ibvs/share/ibvs
+[1.712s] copying launch/gv_launch.py -> /home/ankur/ros2_ws/install/ibvs/share/ibvs/launch
+[1.712s] running install_egg_info
+[1.712s] removing '/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs-0.0.0-py3.10.egg-info' (and everything under it)
+[1.712s] Copying ../../../build/ibvs/ibvs.egg-info to /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs-0.0.0-py3.10.egg-info
+[1.712s] running install_scripts
+[1.733s] Installing spawn_gv script to /home/ankur/ros2_ws/install/ibvs/lib/ibvs
+[1.735s] writing list of installed files to '/home/ankur/ros2_ws/build/ibvs/install.log'
+[1.798s] Invoked command in '/home/ankur/ros2_ws/src/drones_ROS2/ibvs' returned '0': PYTHONPATH=/home/ankur/ros2_ws/build/ibvs/prefix_override:/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ibvs build --build-base /home/ankur/ros2_ws/build/ibvs/build install --record /home/ankur/ros2_ws/build/ibvs/install.log --single-version-externally-managed install_data

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Property definitions -->
+  <xacro:property name="wheel_radius" value="0.3"/>
+  <xacro:property name="wheel_mass" value="2"/>
+  <xacro:property name="chassis_mass" value="1.14395"/>
+
+  <!-- Macro definitions -->
+  <xacro:macro name="wheel" params="name pose">
+    <link name="${name}">
+      <pose>${pose}</pose>
+      <inertial>
+        <mass>${wheel_mass}</mass>
+        <inertia>
+          <ixx>0.145833</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.145833</iyy>
+          <iyz>0</iyz>
+          <izz>0.125</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <geometry>
+          <sphere>
+            <radius>${wheel_radius}</radius>
+          </sphere>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <sphere>
+            <radius>${wheel_radius}</radius>
+          </sphere>
+        </geometry>
+      </collision>
+    </link>
+    <joint name='${name}_joint' type='revolute'>
+      <parent link='chassis'/>
+      <child link='${name}'/>
+      <axis xyz='0 0 1'/>
+      <limit lower='-1.79769e+308' upper='1.79769e+308'/>
+    </joint>
+  </xacro:macro>
+
+  <!-- Model definition -->
+  <model name='vehicle'>
+    <pose>0 0 0.325 0 -0 0</pose>
+
+    <link name='chassis'>
+      <pose>-0.151427 -0 0.175 0 -0 0</pose>
+      <inertial>
+        <mass>${chassis_mass}</mass>
+        <inertia>
+          <ixx>0.126164</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.416519</iyy>
+          <iyz>0</iyz>
+          <izz>0.481014</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>2.01142 1 0.568726</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>2.01142 1 0.568726</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Wheel instances -->
+    <xacro:wheel name="left_wheel" pose="0.554283 0.625029 -0.025 -1.5707 0 0"/>
+    <xacro:wheel name="right_wheel" pose="0.554282 -0.625029 -0.025 -1.5707 0 0"/>
+
+    <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+      <ros>
+        <namespace>/demo</namespace>
+        <remapping>cmd_vel:=cmd_demo</remapping>
+        <remapping>odom:=odom_demo</remapping>
+      </ros>
+      <!-- Wheels -->
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <!-- Kinematics -->
+      <wheel_separation>1.25</wheel_separation>
+      <wheel_diameter>0.6</wheel_diameter>
+      <!-- Limits -->
+      <max_wheel_torque>20</max_wheel_torque>
+      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+      <!-- Output -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+      <odometry_frame>odom_demo</odometry_frame>
+      <robot_base_frame>chassis</robot_base_frame>
+    </plugin>
+  </model>
+</robot>
+

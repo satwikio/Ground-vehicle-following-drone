@@ -1,0 +1,46 @@
+[0.751s] Invoking command in '/home/jagadeesh/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/sjtu_drone_description -- -j20 -l20
+[2.709s] [100%] Built target plugin_drone
+[2.725s] Invoked command in '/home/jagadeesh/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/sjtu_drone_description -- -j20 -l20
+[2.744s] Invoking command in '/home/jagadeesh/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/sjtu_drone_description
+[2.755s] -- Install configuration: ""
+[2.765s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/include
+[2.765s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/include/plugin_drone.h
+[2.765s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/include/pid_controller.h
+[2.785s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/lib/libplugin_drone.so
+[2.786s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh
+[2.786s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv
+[2.786s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models
+[2.786s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone
+[2.786s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/gazebo_ros_diff_drive_demo.world
+[2.787s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/empty.world
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh
+[2.788s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv
+[2.788s] -- Installing: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv
+[2.802s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description
+[2.822s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake
+[2.822s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake
+[2.822s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.822s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake
+[2.823s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake
+[2.823s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake
+[2.823s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake
+[2.823s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.xml
+[2.826s] Invoked command in '/home/jagadeesh/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/sjtu_drone_description

@@ -1,0 +1,4 @@
+source;share/minimal_diff_drive_robot/local_setup.bash
+source;share/minimal_diff_drive_robot/local_setup.dsv
+source;share/minimal_diff_drive_robot/local_setup.sh
+source;share/minimal_diff_drive_robot/local_setup.zsh

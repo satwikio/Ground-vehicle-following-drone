@@ -1,0 +1,21 @@
+[1.092s] Invoking command in '/home/ankur/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup': PYTHONPATH=/home/ankur/ros2_ws/build/sjtu_drone_bringup/prefix_override:/home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/sjtu_drone_bringup build --build-base /home/ankur/ros2_ws/build/sjtu_drone_bringup/build install --record /home/ankur/ros2_ws/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[1.350s] running egg_info
+[1.350s] writing ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/PKG-INFO
+[1.351s] writing dependency_links to ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/dependency_links.txt
+[1.351s] writing entry points to ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/entry_points.txt
+[1.352s] writing requirements to ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/requires.txt
+[1.352s] writing top-level names to ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/top_level.txt
+[1.352s] reading manifest file '../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.353s] writing manifest file '../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.354s] running build
+[1.354s] running build_py
+[1.354s] running install
+[1.354s] running install_lib
+[1.354s] running install_data
+[1.354s] running install_egg_info
+[1.370s] removing '/home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[1.370s] Copying ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info to /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info
+[1.370s] running install_scripts
+[1.398s] Installing spawn_drone script to /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[1.399s] writing list of installed files to '/home/ankur/ros2_ws/build/sjtu_drone_bringup/install.log'
+[1.438s] Invoked command in '/home/ankur/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/ankur/ros2_ws/build/sjtu_drone_bringup/prefix_override:/home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/sjtu_drone_bringup build --build-base /home/ankur/ros2_ws/build/sjtu_drone_bringup/build install --record /home/ankur/ros2_ws/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data

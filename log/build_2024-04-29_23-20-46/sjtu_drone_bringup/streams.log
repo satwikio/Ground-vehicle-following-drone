@@ -1,0 +1,30 @@
+[1.100s] Invoking command in '/home/ankur/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup': PYTHONPATH=/home/ankur/ros2_ws/build/sjtu_drone_bringup/prefix_override:/home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/sjtu_drone_bringup build --build-base /home/ankur/ros2_ws/build/sjtu_drone_bringup/build install --record /home/ankur/ros2_ws/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[1.320s] running egg_info
+[1.337s] writing ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/PKG-INFO
+[1.337s] writing dependency_links to ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/dependency_links.txt
+[1.337s] writing entry points to ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/entry_points.txt
+[1.344s] writing requirements to ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/requires.txt
+[1.344s] writing top-level names to ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/top_level.txt
+[1.345s] reading manifest file '../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.345s] writing manifest file '../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.345s] running build
+[1.345s] running build_py
+[1.345s] copying sjtu_drone_bringup/spawn_drone.py -> /home/ankur/ros2_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup
+[1.345s] copying sjtu_drone_bringup/spawnGV.py -> /home/ankur/ros2_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup
+[1.345s] running install
+[1.345s] running install_lib
+[1.345s] copying /home/ankur/ros2_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup/spawn_drone.py -> /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup
+[1.345s] copying /home/ankur/ros2_ws/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup/spawnGV.py -> /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup
+[1.345s] byte-compiling /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup/spawn_drone.py to spawn_drone.cpython-310.pyc
+[1.345s] byte-compiling /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup/spawnGV.py to spawnGV.cpython-310.pyc
+[1.345s] running install_data
+[1.345s] copying launch/ground_vehicle.launch.py -> /home/ankur/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[1.345s] copying launch/gv.launch.py -> /home/ankur/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[1.345s] running install_egg_info
+[1.345s] removing '/home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[1.345s] Copying ../../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info to /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info
+[1.345s] running install_scripts
+[1.379s] Installing spawnGV script to /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[1.379s] Installing spawn_drone script to /home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[1.380s] writing list of installed files to '/home/ankur/ros2_ws/build/sjtu_drone_bringup/install.log'
+[1.444s] Invoked command in '/home/ankur/ros2_ws/src/drones_ROS2/sjtu_drone/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/ankur/ros2_ws/build/sjtu_drone_bringup/prefix_override:/home/ankur/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/sjtu_drone_bringup build --build-base /home/ankur/ros2_ws/build/sjtu_drone_bringup/build install --record /home/ankur/ros2_ws/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data

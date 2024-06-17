@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/jagadeesh/ros2_ws/build/drive_drone/CMakeCache.txt is different than the directory /home/ankur/ros2_ws/build/drive_drone where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/ankur/ros2_ws/src/drones_ROS2/drive_drone" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

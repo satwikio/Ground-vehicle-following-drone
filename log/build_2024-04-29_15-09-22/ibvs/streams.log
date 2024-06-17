@@ -1,0 +1,22 @@
+[1.098s] Invoking command in '/home/ankur/ros2_ws/src/drones_ROS2/ibvs': PYTHONPATH=/home/ankur/ros2_ws/build/ibvs/prefix_override:/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ibvs build --build-base /home/ankur/ros2_ws/build/ibvs/build install --record /home/ankur/ros2_ws/build/ibvs/install.log --single-version-externally-managed install_data
+[1.351s] running egg_info
+[1.351s] writing ../../../build/ibvs/ibvs.egg-info/PKG-INFO
+[1.351s] writing dependency_links to ../../../build/ibvs/ibvs.egg-info/dependency_links.txt
+[1.352s] writing entry points to ../../../build/ibvs/ibvs.egg-info/entry_points.txt
+[1.352s] writing requirements to ../../../build/ibvs/ibvs.egg-info/requires.txt
+[1.352s] writing top-level names to ../../../build/ibvs/ibvs.egg-info/top_level.txt
+[1.354s] reading manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[1.355s] writing manifest file '../../../build/ibvs/ibvs.egg-info/SOURCES.txt'
+[1.356s] running build
+[1.356s] running build_py
+[1.356s] running install
+[1.356s] running install_lib
+[1.362s] running install_data
+[1.362s] copying launch/ground_vehicle.launch.py -> /home/ankur/ros2_ws/install/ibvs/share/ibvs/launch
+[1.362s] running install_egg_info
+[1.362s] removing '/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs-0.0.0-py3.10.egg-info' (and everything under it)
+[1.365s] Copying ../../../build/ibvs/ibvs.egg-info to /home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages/ibvs-0.0.0-py3.10.egg-info
+[1.366s] running install_scripts
+[1.408s] Installing spawn_gv script to /home/ankur/ros2_ws/install/ibvs/lib/ibvs
+[1.408s] writing list of installed files to '/home/ankur/ros2_ws/build/ibvs/install.log'
+[1.455s] Invoked command in '/home/ankur/ros2_ws/src/drones_ROS2/ibvs' returned '0': PYTHONPATH=/home/ankur/ros2_ws/build/ibvs/prefix_override:/home/ankur/ros2_ws/install/ibvs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ibvs build --build-base /home/ankur/ros2_ws/build/ibvs/build install --record /home/ankur/ros2_ws/build/ibvs/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[0.089s] Invoking command in '/home/ankur/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/src/drones_ROS2/install/sjtu_drone_bringup:/home/ankur/ros2_ws/src/drones_ROS2/install/ibvs:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --build /home/ankur/ros2_ws/build/drive_drone -- -j4 -l4
+[0.394s] [ 50%] Built target p1_a_drive_node
+[0.394s] [100%] Built target p1_b_tb3_follower
+[0.436s] Invoked command in '/home/ankur/ros2_ws/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/src/drones_ROS2/install/sjtu_drone_bringup:/home/ankur/ros2_ws/src/drones_ROS2/install/ibvs:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --build /home/ankur/ros2_ws/build/drive_drone -- -j4 -l4
+[0.554s] Invoking command in '/home/ankur/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/src/drones_ROS2/install/sjtu_drone_bringup:/home/ankur/ros2_ws/src/drones_ROS2/install/ibvs:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --install /home/ankur/ros2_ws/build/drive_drone
+[0.576s] -- Install configuration: ""
+[0.576s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/lib/drive_drone/p1_a_drive_node
+[0.576s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/lib/drive_drone/p1_b_tb3_follower
+[0.576s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone//launch
+[0.576s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone//launch/p1_b_tb3_drone_gazebo.launch.py
+[0.576s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone//launch/p1_a_drone_fly_gazebo_rviz.launch.py
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/ament_index/resource_index/package_run_dependencies/drive_drone
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/ament_index/resource_index/parent_prefix_path/drive_drone
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/environment/ament_prefix_path.sh
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/environment/ament_prefix_path.dsv
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/environment/path.sh
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/environment/path.dsv
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/local_setup.bash
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/local_setup.sh
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/local_setup.zsh
+[0.577s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/local_setup.dsv
+[0.577s] -- Installing: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/package.dsv
+[0.578s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/ament_index/resource_index/packages/drive_drone
+[0.578s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/cmake/drive_droneConfig.cmake
+[0.578s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/cmake/drive_droneConfig-version.cmake
+[0.579s] -- Up-to-date: /home/ankur/ros2_ws/install/drive_drone/share/drive_drone/package.xml
+[0.613s] Invoked command in '/home/ankur/ros2_ws/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/src/drones_ROS2/install/sjtu_drone_bringup:/home/ankur/ros2_ws/src/drones_ROS2/install/ibvs:/home/ankur/ros2_ws/install/ibvs:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --install /home/ankur/ros2_ws/build/drive_drone

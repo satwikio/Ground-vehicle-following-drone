@@ -1,0 +1,27 @@
+[0.136s] Invoking command in '/home/jagadeesh/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jagadeesh/ros2_ws/install/sjtu_drone_control:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup:/home/jagadeesh/ros2_ws/install/ibvs:/home/jagadeesh/ros2_ws/install/drone_controller:/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/drive_drone -- -j20 -l20
+[1.889s] [ 50%] Built target p1_a_drive_node
+[1.973s] [100%] Built target p1_b_tb3_follower
+[1.982s] Invoked command in '/home/jagadeesh/ros2_ws/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jagadeesh/ros2_ws/install/sjtu_drone_control:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup:/home/jagadeesh/ros2_ws/install/ibvs:/home/jagadeesh/ros2_ws/install/drone_controller:/opt/ros/humble /usr/bin/cmake --build /home/jagadeesh/ros2_ws/build/drive_drone -- -j20 -l20
+[2.001s] Invoking command in '/home/jagadeesh/ros2_ws/build/drive_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jagadeesh/ros2_ws/install/sjtu_drone_control:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup:/home/jagadeesh/ros2_ws/install/ibvs:/home/jagadeesh/ros2_ws/install/drone_controller:/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/drive_drone
+[2.008s] -- Install configuration: ""
+[2.172s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/lib/drive_drone/p1_a_drive_node
+[2.380s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/lib/drive_drone/p1_b_tb3_follower
+[2.380s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone//launch
+[2.381s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone//launch/p1_a_drone_fly_gazebo_rviz.launch.py
+[2.381s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone//launch/p1_b_tb3_drone_gazebo.launch.py
+[2.381s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/ament_index/resource_index/package_run_dependencies/drive_drone
+[2.389s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/ament_index/resource_index/parent_prefix_path/drive_drone
+[2.390s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/environment/ament_prefix_path.sh
+[2.390s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/environment/ament_prefix_path.dsv
+[2.390s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/environment/path.sh
+[2.390s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/environment/path.dsv
+[2.390s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/local_setup.bash
+[2.391s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/local_setup.sh
+[2.391s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/local_setup.zsh
+[2.391s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/local_setup.dsv
+[2.391s] -- Installing: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.dsv
+[2.412s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/ament_index/resource_index/packages/drive_drone
+[2.412s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/cmake/drive_droneConfig.cmake
+[2.412s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/cmake/drive_droneConfig-version.cmake
+[2.412s] -- Up-to-date: /home/jagadeesh/ros2_ws/install/drive_drone/share/drive_drone/package.xml
+[2.415s] Invoked command in '/home/jagadeesh/ros2_ws/build/drive_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jagadeesh/ros2_ws/install/sjtu_drone_control:/home/jagadeesh/ros2_ws/install/sjtu_drone_bringup:/home/jagadeesh/ros2_ws/install/ibvs:/home/jagadeesh/ros2_ws/install/drone_controller:/opt/ros/humble /usr/bin/cmake --install /home/jagadeesh/ros2_ws/build/drive_drone

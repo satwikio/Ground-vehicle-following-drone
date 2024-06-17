@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="vehicle">
+  <xacro:property name="wheel_mass" value="2"/>
+  <xacro:property name="wheel_radius" value="0.3"/>
+  <xacro:property name="chassis_size" value="2.01142 1 0.568726"/>
+  <xacro:property name="wheel_separation" value="1.25"/>
+  <xacro:property name="wheel_diameter" value="0.6"/>
+  <xacro:property name="max_wheel_torque" value="20"/>
+  <xacro:property name="max_wheel_acceleration" value="1.0"/>
+
+  <pose>0 0 0.325 0 -0 0</pose>
+
+  <link name='chassis'>
+    <pose>-0.151427 -0 0.175 0 -0 0</pose>
+    <inertial>
+      <mass>1.14395</mass>
+      <inertia>
+        <ixx>0.126164</ixx>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyy>0.416519</iyy>
+        <iyz>0</iyz>
+        <izz>0.481014</izz>
+      </inertia>
+    </inertial>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>${chassis_size}</size>
+        </box>
+      </geometry>
+    </visual>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>${chassis_size}</size>
+        </box>
+      </geometry>
+    </collision>
+  </link>
+
+  <xacro:macro name="wheel" params="name position">
+    <link name="${name}">
+      <pose>${position} -0.025 -1.5707 0 0</pose>
+      <inertial>
+        <mass>${wheel_mass}</mass>
+        <inertia>
+          <ixx>0.145833</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.145833</iyy>
+          <iyz>0</iyz>
+          <izz>0.125</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <geometry>
+          <sphere>
+            <radius>${wheel_radius}</radius>
+          </sphere>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <sphere>
+            <radius>${wheel_radius}</radius>
+          </sphere>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0.01</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+    <joint name="${name}_joint" type='revolute'>
+      <parent>chassis</parent>
+      <child>${name}</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.79769e+308</lower>
+          <upper>1.79769e+308</upper>
+        </limit>
+      </axis>
+    </joint>
+  </xacro:macro>
+
+  <xacro:wheel name="left_wheel" position="0.554283 0.625029"/>
+  <xacro:wheel name="right_wheel" position="0.554282 -0.625029"/>
+
+  <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+    <ros
+

@@ -1,0 +1,46 @@
+[0.771s] Invoking command in '/home/ankur/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/ros2_ws/install/ibvs:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --build /home/ankur/ros2_ws/build/sjtu_drone_description -- -j4 -l4
+[1.050s] [100%] Built target plugin_drone
+[1.103s] Invoked command in '/home/ankur/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/ros2_ws/install/ibvs:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --build /home/ankur/ros2_ws/build/sjtu_drone_description -- -j4 -l4
+[1.332s] Invoking command in '/home/ankur/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/ros2_ws/install/ibvs:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --install /home/ankur/ros2_ws/build/sjtu_drone_description
+[1.365s] -- Install configuration: ""
+[1.365s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/include
+[1.365s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/include/pid_controller.h
+[1.365s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/include/plugin_drone.h
+[1.366s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/lib/libplugin_drone.so
+[1.366s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh
+[1.366s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv
+[1.368s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models
+[1.368s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone
+[1.370s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf
+[1.370s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config
+[1.371s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl
+[1.371s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae
+[1.372s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config
+[1.372s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf
+[1.372s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro
+[1.373s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf
+[1.373s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds
+[1.373s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world
+[1.373s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/empty.world
+[1.373s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/gazebo_ros_diff_drive_demo.world
+[1.373s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description
+[1.373s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description
+[1.373s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh
+[1.374s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv
+[1.374s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh
+[1.374s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv
+[1.374s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash
+[1.374s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh
+[1.374s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh
+[1.374s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv
+[1.375s] -- Installing: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv
+[1.375s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description
+[1.375s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake
+[1.375s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake
+[1.375s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.376s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake
+[1.376s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake
+[1.376s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake
+[1.376s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake
+[1.376s] -- Up-to-date: /home/ankur/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.xml
+[1.376s] Invoked command in '/home/ankur/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ankur/ros2_ws/install/sjtu_drone_bringup:/home/ankur/ros2_ws/install/ibvs:/home/ankur/drone_ws/install/sjtu_drone_control:/home/ankur/drone_ws/install/sjtu_drone_bringup:/home/ankur/drone_ws/install/pkgg:/opt/ros/humble /usr/bin/cmake --install /home/ankur/ros2_ws/build/sjtu_drone_description
